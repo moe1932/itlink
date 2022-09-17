@@ -9733,6 +9733,9 @@ a.text-dark:hover, a.text-dark:focus {
 .about{
   margin-top: 50px;
 }
+.about .container.py-5{
+  max-width: 70%;
+}
 .contact-form h2{
   margin-bottom: 50px;
   margin-top: 50px;
@@ -9760,178 +9763,6 @@ a.text-dark:hover, a.text-dark:focus {
 }
 .contact-form .control-group{
   margin-bottom: 35px;
-}
-@media (max-width: 2600px) {
-  .header-container img{
-    width:100%;
-    height:1250px;
-    object-fit:cover;
-    object-position: top;
-  }
-  .layer{
-    height:1250px;
-    margin-top:-1250px;
-  }
-  .clients .mb-4{
-    margin-left: 20%;
-  }
-  .navbar-brand{
-    margin-left: 6rem;
-    margin-top: 0.5rem;
-  }
-  .logo{
-    width: 12em;
-  }
-}
-@media (max-width: 2000px) {
-  .header-container img{
-    width:100%;
-    height:900px;
-    object-fit:cover;
-    object-position: top;
-    position: relative;
-  }
-  .layer{
-    height:900px;
-    margin-top:-900px;
-  }
-  .clients .mb-4{
-    margin-left: 20%;
-  }
-}
-@media (max-width: 1500px) {
-  .header-container img{
-    width:100%;
-    height:750px;
-    object-fit:cover;
-    object-position: top;
-  }
-  .layer{
-    height:750px;
-    margin-top:-750px;
-  }
-  .clients .mb-4{
-    margin-left: 10%;
-  }
-  .navbar-brand{
-    margin-left: 4rem;
-    margin-top: 0.5rem;
-  }
-  .logo{
-    width: 10em;
-  }
-  .contact-form{
-    margin-left: 0px;
-    margin-right: -80px;
-  }
-  .maps{
-    margin-right: 30px;
-  }
-}
-@media (max-width: 990px) {
-  .header-container img{
-    width:100%;
-    height:720px;
-    object-fit:cover;
-    object-position: top;
-  }
-  .layer {
-    height:720px;
-    margin-top:-720px;
-  }
-  .text-box{
-    max-width: 400px;
-    background-color: rgba(42, 73, 82, 1);
-    padding: 30px;
-    border-radius: 5px;
-    position: relative;
-    top: -400px;
-    left:40px;
-    margin-bottom: -300px;
-  }
-  .about .col-md-6{
-    margin-left: -50px;
-  }
-  .about img{
-    display:none;
-    margin-left: -1000px;
-  }
-  .services .phoneimg img{
-    display: block;
-    width:100%;
-    border-radius: 5px;
-  }
-  .clients .mb-4{
-    margin-left: 5%;
-  }
-  .navbar-brand{
-    margin-left: 0rem;
-    margin-top: 0rem;
-  }
-  .logo{
-    width: 9em;
-  }
-  .contact-form{
-    margin-left: 0px;
-    margin-right: -80px;
-    max-width: 110%;
-  }
-  .maps{
-    margin-right: 30px;
-    margin-top: 0px;
-    margin-left: -1000px;
-  }
-}
-@media (max-width: 800px) {
-  .maps{
-    margin-right: 30px;
-    margin-top: 0px;
-    margin-left: -800px;
-  }
-  .contact-form{
-    margin-left: 0px;
-    margin-right: -80px;
-    max-width: 110%;
-  }
-}
-@media (max-width: 700px) {
-  .maps{
-    margin-right: 30px;
-    margin-top: 0px;
-    margin-left: -300px;
-  }
-  .text-box{
-    max-width: 300px;
-    background-color: rgba(42, 73, 82, 1);
-    padding: 30px;
-    border-radius: 5px;
-    position: relative;
-    top: -450px;
-    left:40px;
-    margin-bottom: -300px;
-  }
-  .services .col-lg-6.mb-2{
-    margin-bottom: 20px;
-  }
-  .about{
-    margin-top: 20px;
-  }
-  .about .container-fluid.py-5, .about .container-fluid.py-5 .container.py-5, .about .container-fluid.py-5 .container.py-5 .row.align-items-center,
-  .about .container-fluid.py-5 .container.py-5 .row.align-items-center .col-md-6{
-    margin:0px;
-  }
-  .contact-form{
-    margin-left: 0px;
-    margin-right: -80px;
-    max-width: 100%;
-  }
-}
-@media (max-width: 600px) {
-  .maps{
-    margin-right: 30px;
-    margin-top: 0px;
-    margin-left: -500px;
-  }
 }
 h1,
 h2,
@@ -10197,6 +10028,178 @@ h6,
     margin: -360px 0px 0px 170px !important;
   }
 }
-.about .container.py-5{
-  max-width: 70%;
+@media (max-width: 2600px) {
+  .header-container img{
+    width:100%;
+    height:1250px;
+    object-fit:cover;
+    object-position: top;
+  }
+  .layer{
+    height:1250px;
+    margin-top:-1250px;
+  }
+  .clients .mb-4{
+    margin-left: 20%;
+  }
+  .navbar-brand{
+    margin-left: 6rem;
+    margin-top: 0.5rem;
+  }
+  .logo{
+    width: 12em;
+  }
+}
+@media (max-width: 2000px) {
+  .header-container img{
+    width:100%;
+    height:900px;
+    object-fit:cover;
+    object-position: top;
+    position: relative;
+  }
+  .layer{
+    height:900px;
+    margin-top:-900px;
+  }
+  .clients .mb-4{
+    margin-left: 20%;
+  }
+}
+@media (max-width: 1500px) {
+  .header-container img{
+    width:100%;
+    height:750px;
+    object-fit:cover;
+    object-position: top;
+  }
+  .layer{
+    height:750px;
+    margin-top:-750px;
+  }
+  .clients .mb-4{
+    margin-left: 10%;
+  }
+  .navbar-brand{
+    margin-left: 4rem;
+    margin-top: 0.5rem;
+  }
+  .logo{
+    width: 10em;
+  }
+  .contact-form{
+    margin-left: 0px;
+    margin-right: -80px;
+  }
+  .maps{
+    margin-right: 30px;
+  }
+}
+@media (max-width: 990px) {
+  .header-container img{
+    width:100%;
+    height:720px;
+    object-fit:cover;
+    object-position: top;
+  }
+  .layer {
+    height:720px;
+    margin-top:-720px;
+  }
+  .text-box{
+    max-width: 400px;
+    background-color: rgba(42, 73, 82, 1);
+    padding: 30px;
+    border-radius: 5px;
+    position: relative;
+    top: -400px;
+    left:40px;
+    margin-bottom: -300px;
+  }
+  .about .col-md-6{
+    margin-left: -50px;
+  }
+  .about img{
+    display:none;
+    margin-left: -1000px;
+  }
+  .services .phoneimg img{
+    display: block;
+    width:100%;
+    border-radius: 5px;
+  }
+  .clients .mb-4{
+    margin-left: 5%;
+  }
+  .navbar-brand{
+    margin-left: 0rem;
+    margin-top: 0rem;
+  }
+  .logo{
+    width: 9em;
+  }
+  .contact-form{
+    margin-left: 0px;
+    margin-right: -80px;
+    max-width: 110%;
+  }
+  .maps{
+    margin-right: 30px;
+    margin-top: 0px;
+    margin-left: -1000px;
+  }
+}
+@media (max-width: 800px) {
+  .maps{
+    margin-right: 30px;
+    margin-top: 0px;
+    margin-left: -800px;
+  }
+  .contact-form{
+    margin-left: 0px;
+    margin-right: -80px;
+    max-width: 110%;
+  }
+}
+@media (max-width: 700px) {
+  .maps{
+    margin-right: 30px;
+    margin-top: 0px;
+    margin-left: -300px;
+  }
+  .text-box{
+    max-width: 300px;
+    background-color: rgba(42, 73, 82, 1);
+    padding: 30px;
+    border-radius: 5px;
+    position: relative;
+    top: -450px;
+    left:40px;
+    margin-bottom: -300px;
+  }
+  .services .col-lg-6.mb-2{
+    margin-bottom: 20px;
+  }
+  .contact-form{
+    margin-left: 0px;
+    margin-right: -80px;
+    max-width: 100%;
+  }
+  .services .btn{
+    padding: 0;
+    margin: 0px !important;
+    margin: -390px 0px 0px 140px !important;
+  }
+  .about .container.py-5{
+    max-width: 90%;
+    margin-left: 60px;
+    margin-top: -100px;
+  }
+}
+@media (max-width: 600px) {
+  .maps{
+    margin-right: 30px;
+    margin-top: 0px;
+    margin-left: -500px;
+  }
 }
