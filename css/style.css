@@ -10195,11 +10195,14 @@ h6,
     margin-left: 60px;
     margin-top: -100px;
   }
+  .services .service-item.rounded.p-5.mb-4{
+    height: 350px
+  }
 }
 @media (max-width: 600px) {
   .maps{
     margin-right: 30px;
     margin-top: 0px;
-    margin-left: -500px;
+    margin-left: -400px;
   }
 }
