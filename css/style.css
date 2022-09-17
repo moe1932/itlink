@@ -9898,7 +9898,7 @@ a.text-dark:hover, a.text-dark:focus {
   .maps{
     margin-right: 30px;
     margin-top: 0px;
-    margin-left: -650px;
+    margin-left: -300px;
   }
   .text-box{
     max-width: 300px;
@@ -9919,6 +9919,11 @@ a.text-dark:hover, a.text-dark:focus {
   .about .container-fluid.py-5, .about .container-fluid.py-5 .container.py-5, .about .container-fluid.py-5 .container.py-5 .row.align-items-center,
   .about .container-fluid.py-5 .container.py-5 .row.align-items-center .col-md-6{
     margin:0px;
+  }
+  .contact-form{
+    margin-left: 0px;
+    margin-right: -80px;
+    max-width: 100%;
   }
 }
 @media (max-width: 600px) {
