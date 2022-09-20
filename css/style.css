@@ -9742,6 +9742,9 @@ a.text-dark:hover, a.text-dark:focus {
   margin-top: 50px;
   overflow-x: hidden;
 }
+.why{
+  overflow-x: hidden;
+}
 .about .container.py-5{
   max-width: 70%;
 }
@@ -10279,6 +10282,12 @@ h6,
   .features{
     margin-top: -90px;
     margin-right:-15px;
+    max-width: 100%;
+  }
+  .why .container.py-5{
+    max-width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
   }
 }
 @media (max-width: 800px) {
