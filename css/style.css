@@ -9772,9 +9772,10 @@ a.text-dark:hover, a.text-dark:focus {
 .contact-form .control-group{
   margin-bottom: 35px;
 }
-.features .mb-5{
-  margin-left: 10%;
+.features .mb-6{
+  margin-left: 15%;
 }
+
 h1,
 h2,
 .font-weight-bold {
@@ -9911,7 +9912,7 @@ h6,
   width: 60px;
   height: 180px;
   top: calc(50% - 90px);
-  left: 0;
+  left: -5%;
   z-index: 1;
 }
 
@@ -10025,7 +10026,7 @@ h6,
   margin-bottom:-10px;
 }
 .features img{
-  height: 320px;
+  height: 270px;
 }
 @media (min-width: 1000px) {
   .services .btn{
@@ -10192,7 +10193,7 @@ h6,
     position: absolute;
     width: 200px;
     height: 180px;
-    top: 90%;
+    top: 102%;
     left: 34%;
     z-index: 1;
     display: flex;
@@ -10317,5 +10318,8 @@ h6,
   .what .col-md-6{
     margin-left: 0px;
     margin-right: 0px;
+  }
+  .features .mb-6{
+    margin-left: 3%;
   }
 }
