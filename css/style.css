@@ -10025,7 +10025,7 @@ h6,
   margin-bottom:-10px;
 }
 .features img{
-  height: 300px;
+  height: 320px;
 }
 @media (min-width: 1000px) {
   .services .btn{
@@ -10252,6 +10252,13 @@ h6,
   .services .btn{
     margin: -360px 0px 0px 170px !important;
   }
+  .what .desktop{
+    display: none;
+  }
+  .what .col-md-6{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 }
 @media (max-width: 700px) {
   .maps{
@@ -10290,11 +10297,25 @@ h6,
   .services .service-item.rounded.p-5.mb-4{
     height: 350px
   }
+  .what .desktop{
+    display: none;
+  }
+  .what .col-md-6{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 }
 @media (max-width: 600px) {
   .maps{
     margin-right: 30px;
     margin-top: 0px;
     margin-left: -400px;
+  }
+  .what .desktop{
+    display: none;
+  }
+  .what .col-md-6{
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
