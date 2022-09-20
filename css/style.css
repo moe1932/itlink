@@ -10019,6 +10019,14 @@ h6,
   font-size: 17px;
   padding-bottom: 10px;
 }
+.what ion-icon, .about ion-icon{
+  font-size: 30px;
+  color: var(--primary);
+  margin-bottom:-10px;
+}
+.features img{
+  height: 300px;
+}
 @media (min-width: 1000px) {
   .services .btn{
     margin: -360px 0px 0px 400px !important;
@@ -10034,18 +10042,18 @@ h6,
   color: var(--primary);
   padding-bottom: 15px;
 }
-.why ion-icon{
+.what ion-icon{
   font-size: 30px;
   color: var(--primary);
   margin-bottom:-10px;
 }
-.why p{
+.what p{
   font-size: 18px;
 }
-.why .desktop{
+.what .desktop{
   width:190%;
 }
-.why .col-md-6{
+.what .col-md-6{
   margin-left: -100px;
   margin-right: 100px;
 }
@@ -10184,7 +10192,7 @@ h6,
     position: absolute;
     width: 200px;
     height: 180px;
-    top: calc(97% - 90px);
+    top: 90%;
     left: 34%;
     z-index: 1;
     display: flex;
@@ -10213,6 +10221,21 @@ h6,
   }
   .team-carousel{
     margin-left: -20px;
+  }
+  .what ion-icon, .about ion-icon{
+    font-size: 30px;
+    color: var(--primary);
+    margin-bottom:-10px;
+  }
+  .what p{
+    font-size: 18px;
+  }
+  .what .desktop{
+    display: none;
+  }
+  .what .col-md-6{
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
 @media (max-width: 800px) {
