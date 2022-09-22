@@ -55,11 +55,18 @@
             <img src="img/voip2.jpg">
             <div class="layer"></div>
             <div class="voip-text">
-                <h2>IT Link Corp - VoIP Services</h2>
+                <h2>VoIP Services</h2>
+            </div>
+            <div class="text-box">
+                <h2>Request a quote with us</h2>
+                <p class="text-white mb-4">IT Link Corp is offering <b class="text-primary">free</b> quotes for all VoIP inquiries. Click the link below to find out more.</p>
+                <a href="voip.html" class="btn btn-dark text-uppercase mt-1 py-3 px-5">Learn More</a>
             </div>
         </div>
     </div>
     <!--Header End-->
+     <!--Quote request-->
+    <!--Quote request end-->
     <!--What VOIP-->
     <div class="what">
         <div class="container-fluid py-5">
@@ -136,22 +143,59 @@
         </div>
     </div>
     <!--Features End-->
-    <!--Why IT-Link-->
-    <div class="why">
-        <div class="container-fluid py-5">
-            <div class="container py-5">
-                <div class="row align-items-center">
-                    <div class="col-md-6">
-                        <h1 class="display-4 text-uppercase mb-4">Why IT Link Corp?</h1>
-                        <h5 class="text-uppercase text-primary mb-3">Your local solution provider.</h5>
-                        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in.</p>
+    <!--Why IT and Quote start-->
+    <div class="whyquote-container">
+        <div class="why">
+            <h2>Why IT Link Corp?</h2>
+            <h5 class="text-uppercase text-primary mb-3">Your local solutions provider</h5>
+            <p class="text-dark">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+            <p class="text-dark">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+        </div>
+        <div class="quote">
+            <div class="contact-form bg-white rounded p-5">
+                <h2>Request a free quote</h2>
+                <p class="text-dark mb-4">Please use the form below to request a free estimated quote depending on your business needs. Include as much detail as possible to help our representatives in finding you the best deal.</p>
+                <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                    <div class="form-row">
+                        <div class="col-md-6">
+                            <div class="control-group">
+                                <input type="text" class="form-control bg-light border-0 p-4" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="control-group">
+                                <input type="email" class="form-control bg-light border-0 p-4" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
                     </div>
-                </div>
+                    <div class="form-row">
+                        <div class="col-md-6">
+                            <div class="control-group">
+                                <input type="tel" class="form-control bg-light border-0 p-4" id="phone" placeholder="Your Phone Number" required="required" data-validation-required-message="Please enter your phone number" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="control-group">
+                                <input type="text" class="form-control bg-light border-0 p-4" id="subject" placeholder="Subject"/>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <textarea class="form-control bg-light border-0 py-3 px-4" rows="5" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                        <p class="help-block text-danger"></p>
+                    </div>
+                    <div class="text-center">
+                        <button class="btn btn-primary text-uppercase py-3 px-5" type="submit" id="sendMessageButton">Send Message</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
-    <!--Why IT-Link End-->
+    <!--Why IT and Quote end-->
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-white-50 py-5 px-sm-3 px-md-5" style="margin-top: 90px;">
         <div class="row pt-5">

@@ -9742,9 +9742,6 @@ a.text-dark:hover, a.text-dark:focus {
   margin-top: 50px;
   overflow-x: hidden;
 }
-.why{
-  overflow-x: hidden;
-}
 .about .container.py-5{
   max-width: 70%;
 }
@@ -9778,11 +9775,6 @@ a.text-dark:hover, a.text-dark:focus {
 }
 .features .mb-6{
   margin-left: 15%;
-}
-.why .container.py-5{
-  max-width: 100%;
-  text-align: center;
-  margin-left: 25%;
 }
 .team-carousel .owl-nav {
   position: absolute;
@@ -9915,12 +9907,12 @@ a.text-dark:hover, a.text-dark:focus {
   color: var(--primary);
   padding-bottom: 15px;
 }
-.what ion-icon, .why ion-icon{
+.what ion-icon{
   font-size: 30px;
   color: var(--primary);
   margin-bottom:-10px;
 }
-.what p, .why p{
+.what p{
   font-size: 18px;
 }
 .what .desktop{
@@ -9930,6 +9922,7 @@ a.text-dark:hover, a.text-dark:focus {
   margin-left: -100px;
   margin-right: 100px;
 }
+
 h1,
 h2,
 .font-weight-bold {
@@ -10054,7 +10047,30 @@ h6,
   height: 400px;
   margin-bottom: 90px;
 }
-
+.header-voip .text-box{
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: rgba(42, 73, 82, 0.9);
+}
+.header-voip .text-box .btn{
+  background-color: rgba(33, 118, 175, 0.7);
+}
+.header-voip .text-box .btn:hover{
+  background-color: var(--dark);
+}
+.whyquote-container{
+  display: flex;
+}
+.why{
+  max-width: 40%;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-right: 5%;
+}
+.quote{
+  max-width: 45%;
+  margin-right: 5%;
+}
 @media (max-width: 991.98px) {
   .page-header {
     height: 300px;
@@ -10062,7 +10078,7 @@ h6,
 }
 @media (min-width: 1000px) {
   .services .btn{
-    margin: -360px 0px 0px 400px !important;
+    margin: -360px 0px 0px 260px !important;
   }
 }
 @media (max-width: 2600px) {
@@ -10112,6 +10128,9 @@ h6,
   }
   .clients .mb-4{
     margin-left: 20%;
+  }
+  .what .desktop{
+    width: 150%;
   }
 }
 @media (max-width: 1500px) {
@@ -10175,6 +10194,28 @@ h6,
   }
   .maps{
     margin-right: 30px;
+  }
+  .header-voip .text-box{
+    left:50px;
+    top:350px;
+  }
+  .what .col-md-6{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .what .desktop{
+    width: 129%;
+  }
+  .whyquote-container{
+    display: block;
+  }
+  .why{
+    max-width: 60%;
+    margin-left: 19%;
+  }
+  .quote{
+    max-width: 60%;
+    margin-left: 15%;
   }
 }
 @media (max-width: 990px) {
@@ -10284,10 +10325,29 @@ h6,
     margin-right:-15px;
     max-width: 100%;
   }
-  .why .container.py-5{
+  .header-voip .text-box{
+    text-align: center;
     max-width: 100%;
-    margin-left: 0%;
-    margin-right: 0%;
+    background-color: rgba(42, 73, 82, 0.94);
+    padding: 10px;
+    border-radius: 0px;
+    position: relative;
+    top: -160px;
+    left:0px;
+    margin-bottom: -200px;
+  }
+  .whyquote-container{
+    display: block;
+  }
+  .why{
+    max-width: 80%;
+    margin-left: 9%;
+    margin-right: 1%;
+  }
+  .quote{
+    max-width: 80%;
+    margin-left: 5%;
+    margin-right: 1%;
   }
 }
 @media (max-width: 800px) {
@@ -10310,6 +10370,19 @@ h6,
   .what .col-md-6{
     margin-left: 0px;
     margin-right: 0px;
+  }
+  .whyquote-container{
+    display: block;
+  }
+  .why{
+    max-width: 80%;
+    margin-left: 5%;
+    margin-right: 0%;
+  }
+  .quote{
+    max-width: 90%;
+    margin-left: -2%;
+    margin-right: 0%;
   }
 }
 @media (max-width: 700px) {
