@@ -784,7 +784,7 @@ img {max-width: 100%; height: auto;}
     line-height: inherit;     
     text-transform: capitalize
   }
-  .header .menu .menu-mobile-header .menu-mobile-close {
+  .header .menu .menu-mobile-header .menu-mobile-close{
       font-size: 20px;
       cursor: pointer;
       width: 50px;
@@ -796,6 +796,19 @@ img {max-width: 100%; height: auto;}
       border: 0;
       background: var(--blue-color);
       color: var(--white-color);
+  }
+  .menu-mobile-close1 .menu-mobile-close2 .menu-mobile-close3 .menu-mobile-close4{
+    font-size: 20px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    background: var(--blue-color);
+    color: var(--white-color);
   }
   .header .menu .menu-section {    height: 100%;    overflow-y: auto;    overflow-x: hidden;  }
   .header .menu>ul>li .menu-subs {
