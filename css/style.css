@@ -1439,7 +1439,7 @@ img {max-width: 100%; height: auto;}
     font-size: 22px;
     font-weight: 500;
 }
-.dashbefore{position: relative; padding-left: 16px;}
+.dashbefore{position: relative; padding-left: 18px;}
 .dashbefore:before {
   content: "";
   position: absolute;
@@ -1450,7 +1450,8 @@ img {max-width: 100%; height: auto;}
   width: 8px;
   height: 8px;
   border-radius: 6px;
-  background: var(--orange-color);  
+  background: var(--orange-color);
+  margin-left: 5px;
 }
 .indexdemo{background: var(--white-color) !important;}
 /*blogs*/
